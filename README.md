@@ -1,14 +1,29 @@
-# Sentinel Geofence & Network Monitor Suite
+# 🛡️ Sentinel Geofence Network Monitor & Enterprise Security Suite
 
-An automated, context-aware cybersecurity toolset designed for mobile endpoint security, local network auditing, and Data Loss Prevention (DLP). This suite dynamically monitors device environments to detect rogue networks and prevent sensitive data leakage.
+Welcome to the **Sentinel Geofence Network Monitor** repository. This suite provides a comprehensive, enterprise-grade approach to zero-trust perimeter network security, automated compliance tracking, and cybersecurity cost-benefit analysis.
 
-## 🚀 Key Modules
-* **Geofencing Awareness (`geofencing_awarebeness.py`):** Enforces security policies based on location changes.
-* **Network Audit (`network neighbor.py`):** Audits local TCP ports programmatically to map out vulnerabilities.
-* **Traffic Auditor (`traffic.auditing.py`):** Monitors network stream metrics for unexpected chatter.
-* **Data Loss Prevention (`leakinginfocheck.py`):** Scans files for cleartext credentials and sensitive indicators.
+---
 
-## 🛠️ Tech Stack
-* **Language:** Python 3.x
-* **Core Engines:** `socket`, `json`, `os`, `time`
-* **Platform:** Developed and compiled entirely on Android via Pydroid 3 and Termux
+## 🚀 Suite Component Overview
+
+### 1. 🛡️ Active Perimeter Defense Daemon (`sentinel_perimeter_defense.py`)
+* **Purpose:** Simulates file integrity monitoring (FIM) and socket sniffing.
+* **Function:** Identifies unauthorized backdoor entry points and blocks connections originating outside geographic geofence zones.
+
+### 2. 📊 Automated SLA Compliance Reporter (`sla_reporter.py`)
+* **Purpose:** Simulates network traffic telemetry data to auto-generate structured, audit-ready operational updates (`SENTINEL_SLA_REPORT.md`).
+
+### 💼 Enterprise ROI Calculator (`sentinel_roi_calc.py`)
+* **Purpose:** Computes Year-1 Gross Savings, licensing costs, and Return on Investment (ROI) percentages for corporate stakeholder review.
+
+### 🔍 Core Networking Utilities (`net_recon.py` & `conn_auditor.py`)
+* **Purpose:** Handles low-level network reconnaissance tracking and active socket connection auditing across the geofence perimeter.
+
+---
+
+## 🛠️ Execution Commands
+* **Run Perimeter Defense:** `python sentinel_perimeter_defense.py`
+* **Generate SLA Report:** `python sla_reporter.py`
+* **Run ROI Calculator:** `python sentinel_roi_calc.py`
+* **Run Network Recon:** `python net_recon.py`
+* **Run Connection Auditor:** `python conn_auditor.py`
