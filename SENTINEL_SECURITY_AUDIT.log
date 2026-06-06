@@ -1,1 +1,14 @@
-[2026-05-18 12:37:24] ALERT: Blocked unauthorized connection from 185.134.66.235 on port 4444. Geofence violation mitigated.
+################################################################################
+# SENTINEL GEOFENCE NETWORK MONITOR - SECURITY AUDIT LOG
+################################################################################
+# Log Format Version: 1.0
+# Purpose: Track security events, geofence violations, and unauthorized access attempts
+# Format: Structured pipe-delimited fields for automated parsing and analysis
+# Date Range: 2026-05-18 onwards
+# Retention Policy: 90 days (rotate and archive older logs)
+# Access Control: Restricted to authorized administrators only
+################################################################################
+
+TIMESTAMP|EVENT_ID|SEVERITY|EVENT_TYPE|SOURCE_IP|SOURCE_PORT|DEST_PORT|GEOFENCE_NAME|EXPECTED_REGION|ACTUAL_REGION|ACTION_TAKEN|RESPONSE_TIME_MS|INCIDENT_STATUS|DETAILS|RESOLUTION_STATUS|ADMIN_NOTE
+
+2026-05-18T12:37:24Z|EVT-20260518-001|ALERT|GEOFENCE_VIOLATION|185.134.66.235|54832|4444|Primary-Zone-A|US-CA|Unknown|BLOCKED|245|MITIGATED|Unauthorized connection attempt from external IP outside geofence boundaries. Connection terminated immediately.|RESOLVED|Initial incident response completed. IP added to blocklist.
